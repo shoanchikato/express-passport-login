@@ -1,0 +1,26 @@
+{
+  "name": "passportlogin",
+  "version": "1.0.0",
+  "description": "User authentication app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "author": "Shoan Chikato",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "express": "*",
+    "express-flash": "*",
+    "express-handlebars": "*",
+    "express-messages": "*",
+    "express-session": "*",
+    "express-validator": "^3.2.1",
+    "mongoose": "^4.10.8",
+    "passport": "*",
+    "passport-http": "*",
+    "passport-local": "*"
+  }
+}
